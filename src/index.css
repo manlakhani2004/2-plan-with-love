@@ -1,0 +1,124 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.tour-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.tour-heading{
+  font-size: 1.5rem;
+  border: 7px dashed rgba(1,17,160);
+  margin-top: 6vh;
+  border-radius: 20px;
+  padding: 1vh 5vw;
+}
+
+.package-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  gap:10px;
+}
+
+.packag{
+  width: 420px;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+  justify-content: center;
+  /* align-items: center; */
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 15px;
+}
+
+.packageimage{
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.package-content{
+  display: flex;
+  flex-direction: column;
+  gap:7px;
+  padding-inline: 5px;
+}
+
+.package-price{
+   font-size: 20px;
+   font-weight:800;
+   color: rgb(22, 97, 22);
+
+}
+
+.package-name{
+  font-size:25px;
+  font-weight:bold;
+}
+
+.notInterest-btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.notInt-btn{
+    padding:8px 5rem;
+    border-radius: 10px;
+    border: 1px solid #b4161b;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.notInt-btn:hover{
+  background-color: rgb(206, 28, 28);
+  transition: background-color ease-in 0.3s;
+  color: white;
+}
+
+.showcontent{
+  color:rgb(10, 124, 163);
+  font-weight:500;
+  cursor: pointer;
+}
+
+.nottourfound-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+
+.NotFound{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15rem;
+  gap:10px;
+}
+
+.NotFound button{
+  margin-top: 1rem;
+  padding: 7px 40px;
+  border-radius: 5px;
+  background-color: rgb(231, 235, 236);
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 500;
+}
+
